@@ -27,7 +27,8 @@ NetMHCIIpan binary tarball file}
 \item{netmhc2pan_archive_filename}{the NetMHC2pan archive
 filename, for example \code{netMHCIIpan-3.2.Linux.tar.gz},
 which is used in installation of NetMHC2pan.
-Use \link[netmhc2pan]{get_netmhc2pan_archive_filename} to get this filename.}
+Use \link[netmhc2pan]{get_netmhc2pan_archive_filename}
+to get this filename.}
 
 \item{temp_local_file}{path to the temporary file to store the URL to.
 This file will be deleted afterwards.}

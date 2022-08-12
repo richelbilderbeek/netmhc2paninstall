@@ -32,7 +32,7 @@ Suggests:
     testthat (>= 3.0.0),
     spelling
 VignetteBuilder: knitr
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
 Language: en-US
 URL: https://github.com/richelbilderbeek/netmhc2paninstall/
 BugReports: https://github.com/richelbilderbeek/netmhc2paninstall/issues

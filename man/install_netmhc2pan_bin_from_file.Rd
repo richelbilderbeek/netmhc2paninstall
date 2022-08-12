@@ -20,7 +20,8 @@ NetMHCIIpan binary tarball file}
 \item{netmhc2pan_archive_filename}{the NetMHC2pan archive
 filename, for example \code{netMHCIIpan-3.2.Linux.tar.gz},
 which is used in installation of NetMHC2pan.
-Use \link[netmhc2pan]{get_netmhc2pan_archive_filename} to get this filename.}
+Use \link[netmhc2pan]{get_netmhc2pan_archive_filename}
+to get this filename.}
 
 \item{netmhc2pan_folder_name}{the folder (to be) used by NetMHCIIpan.
 From this location, a subfolder for NetMHCIIpan is created.
