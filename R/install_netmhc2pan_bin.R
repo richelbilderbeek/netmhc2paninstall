@@ -40,7 +40,7 @@ install_netmhc2pan_bin <- function(
   )
   netmhc2pan::download_netmhc2pan_bin(
     netmhc2pan_bin_url = netmhc2pan_bin_url,
-    netmhc2pan_tarfile_path = netmhc2pan_tarfile_path,
+    netmhc2pan_bin_tarfile_path = netmhc2pan_tarfile_path,
     verbose = verbose,
     netmhc2pan_archive_filename = netmhc2pan_archive_filename,
     temp_local_file = temp_local_file
