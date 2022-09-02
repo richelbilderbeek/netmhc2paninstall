@@ -20,7 +20,7 @@ install_netmhc2pan_data_from_file <- function( # nolint long function name indee
   testthat::expect_true(file.exists(netmhc2pan_data_tarfile_path))
   data_folder_path <- file.path(
     netmhc2pan_folder_name,
-    basename(get_default_netmhc2pan_subfolder()),
+    basename(netmhc2pan::get_default_netmhc2pan_subfolder()),
     "data"
   )
   if (file.exists(data_folder_path)) {
@@ -29,7 +29,7 @@ install_netmhc2pan_data_from_file <- function( # nolint long function name indee
 
   local_path <- file.path(
     netmhc2pan_folder_name,
-    basename(get_default_netmhc2pan_subfolder()),
+    basename(netmhc2pan::get_default_netmhc2pan_subfolder()),
     "data.Linux.tar.gz"
   )
 
@@ -42,7 +42,7 @@ install_netmhc2pan_data_from_file <- function( # nolint long function name indee
     exdir = path.expand(
       file.path(
         netmhc2pan_folder_name,
-        basename(get_default_netmhc2pan_subfolder())
+        basename(netmhc2pan::get_default_netmhc2pan_subfolder())
       )
     )
   )

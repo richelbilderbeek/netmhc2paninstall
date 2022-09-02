@@ -20,7 +20,7 @@ install_netmhc2pan_data <- function(
 ) {
   data_folder_path <- file.path(
     netmhc2pan_folder_name,
-    basename(get_default_netmhc2pan_subfolder()),
+    basename(netmhc2pan::get_default_netmhc2pan_subfolder()),
     "data"
   )
   if (file.exists(data_folder_path)) {
@@ -29,7 +29,7 @@ install_netmhc2pan_data <- function(
 
   local_path <- file.path(
     netmhc2pan_folder_name,
-    basename(get_default_netmhc2pan_subfolder()),
+    basename(netmhc2pan::get_default_netmhc2pan_subfolder()),
     "data.Linux.tar.gz"
   )
 
@@ -48,7 +48,7 @@ install_netmhc2pan_data <- function(
     exdir = path.expand(
       file.path(
         netmhc2pan_folder_name,
-        basename(get_default_netmhc2pan_subfolder())
+        basename(netmhc2pan::get_default_netmhc2pan_subfolder())
       )
     )
   )

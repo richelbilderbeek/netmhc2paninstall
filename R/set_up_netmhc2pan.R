@@ -16,8 +16,8 @@ set_up_netmhc2pan <- function(
   }
   bin_path <- file.path(
     netmhc2pan_folder_name,
-    basename(get_default_netmhc2pan_subfolder()),
-    basename(get_default_netmhc2pan_bin_path())
+    basename(netmhc2pan::get_default_netmhc2pan_subfolder()),
+    basename(netmhc2pan::get_default_netmhc2pan_bin_path())
   )
   if (!file.exists(bin_path)) {
     stop(
@@ -33,7 +33,7 @@ set_up_netmhc2pan <- function(
   setenv_line_idx <- which(
     lines == paste0(
       "setenv\tNMHOME\t/usr/cbs/bio/src/",
-      basename(get_default_netmhc2pan_subfolder())
+      basename(netmhc2pan::get_default_netmhc2pan_subfolder())
     )
   )
   lines[setenv_line_idx] <- paste0("setenv\tNMHOME\t", dirname(bin_path))
