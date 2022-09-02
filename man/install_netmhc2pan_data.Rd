@@ -5,7 +5,7 @@
 \title{Install the NetMHCIIpan data to a local folder}
 \usage{
 install_netmhc2pan_data(
-  netmhc2pan_data_url = get_netmhc2pan_data_url(),
+  netmhc2pan_data_url = netmhc2pan::get_netmhc2pan_data_url(),
   netmhc2pan_folder_name = rappdirs::user_data_dir(),
   verbose = FALSE
 )

@@ -8,7 +8,7 @@
 #' @author Richèl J.C. Bilderbeek
 #' @export
 set_up_netmhc2pan <- function(
-  netmhc2pan_folder_name = get_default_netmhc2pan_folder(),
+  netmhc2pan_folder_name = netmhc2pan::get_default_netmhc2pan_folder(),
   verbose = FALSE
 ) {
   if (verbose) {

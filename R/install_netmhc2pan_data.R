@@ -14,7 +14,7 @@
 #' @author Richèl J.C. Bilderbeek
 #' @export
 install_netmhc2pan_data <- function(
-  netmhc2pan_data_url = get_netmhc2pan_data_url(),
+  netmhc2pan_data_url = netmhc2pan::get_netmhc2pan_data_url(),
   netmhc2pan_folder_name = rappdirs::user_data_dir(),
   verbose = FALSE
 ) {

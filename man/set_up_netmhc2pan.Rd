@@ -5,7 +5,7 @@
 \title{Install the NetMHCIIpan binary to a local folder}
 \usage{
 set_up_netmhc2pan(
-  netmhc2pan_folder_name = get_default_netmhc2pan_folder(),
+  netmhc2pan_folder_name = netmhc2pan::get_default_netmhc2pan_folder(),
   verbose = FALSE
 )
 }
