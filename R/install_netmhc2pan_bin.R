@@ -46,7 +46,7 @@ install_netmhc2pan_bin <- function(
     temp_local_file = temp_local_file
   )
   netmhc2pan::install_netmhc2pan_bin_from_file(
-    netmhc2pan_tarfile_path = netmhc2pan_tarfile_path,
+    netmhc2pan_bin_tarfile_path = netmhc2pan_tarfile_path,
     verbose = verbose,
     netmhc2pan_archive_filename = netmhc2pan_archive_filename,
     netmhc2pan_folder_name = netmhc2pan_folder_name
