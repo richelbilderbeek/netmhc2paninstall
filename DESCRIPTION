@@ -16,16 +16,10 @@ Description: The field of immunology benefits from software that can
 License: GPL-3
 Encoding: UTF-8
 Imports:
-    assertive,
-    devtools,
-    dplyr,
     netmhc2pan,
     rappdirs,
-    readr,
-    seqinr,
     stringr,
-    testit,
-    tibble
+    testit
 Suggests: 
     knitr,
     rmarkdown,

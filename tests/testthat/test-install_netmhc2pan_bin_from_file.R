@@ -4,7 +4,7 @@ test_that("install NetMHCIIpan binary to a custom location", {
 
   netmhc2pan_bin_tarfile_path <- tempfile("install_netmhc2pan_bin_from_file_")
   download_netmhc2pan_bin(
-    netmhc2pan_tarfile_path = netmhc2pan_bin_tarfile_path
+    netmhc2pan_bin_tarfile_path = netmhc2pan_bin_tarfile_path
   )
   expect_true(file.exists(netmhc2pan_bin_tarfile_path))
 
