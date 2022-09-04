@@ -17,11 +17,11 @@ License: GPL-3
 Encoding: UTF-8
 Imports:
     netmhc2pan,
-    rappdirs,
     stringr,
     testit
 Suggests: 
     knitr,
+    rappdirs,
     rmarkdown,
     testthat (>= 3.0.0),
     spelling

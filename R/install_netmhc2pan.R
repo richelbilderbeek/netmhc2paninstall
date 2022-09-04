@@ -14,11 +14,13 @@
 #' @inheritParams default_params_doc
 #' @return Nothing
 #' @examples
-#' # Install to a random location
-#' netmhc2pan_folder_name <- tempfile()
-#' install_netmhc2pan(netmhc2pan_folder_name = netmhc2pan_folder_name)
+#' if (netmhc2pan::is_on_travis()) {
+#'   # Install to a random location
+#'   netmhc2pan_folder_name <- tempfile()
+#'   install_netmhc2pan(netmhc2pan_folder_name = netmhc2pan_folder_name)
 #'
-#' unlink(netmhc2pan_folder_name, recursive = TRUE)
+#'   unlink(netmhc2pan_folder_name, recursive = TRUE)
+#' }
 #' @author Richèl J.C. Bilderbeek
 #' @export
 install_netmhc2pan <- function(
